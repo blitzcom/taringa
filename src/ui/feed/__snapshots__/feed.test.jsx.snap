@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui/feed renders items 1`] = `
+<div
+  className="wrapper"
+>
+  <article>
+    <h2 />
+    <p>
+      a1
+    </p>
+  </article>
+</div>
+`;
+
+exports[`ui/feed when isError renders error and try again button 1`] = `
+<p>
+  Error 
+  <button
+    onClick={[MockFunction]}
+  >
+    try again
+  </button>
+</p>
+`;
+
+exports[`ui/feed when isFetching data renders loader 1`] = `
+<p>
+  Loading...
+</p>
+`;
+
+exports[`ui/feed when isIdle renders loader 1`] = `
+<p>
+  Loading...
+</p>
+`;

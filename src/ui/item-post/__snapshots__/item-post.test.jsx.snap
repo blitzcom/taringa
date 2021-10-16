@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui/item-post renders item post 1`] = `
+<article>
+  <h2>
+    foo
+  </h2>
+  <p>
+    bar
+  </p>
+</article>
+`;

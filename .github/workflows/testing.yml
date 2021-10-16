@@ -1,0 +1,21 @@
+name: Taringa! Community CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-lates
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14.15.4'
+          cache: 'npm'
+      - name: Install dependencies
+        run: npm ci
+      - run: npm test
