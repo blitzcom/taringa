@@ -1,7 +1,7 @@
 import Head from 'next/head';
 
-import Content from 'ui/content';
-import Feed from 'ui/feed';
+import Content from '@/ui/content';
+import Feed from '@/ui/feed';
 
 export default function Home() {
   return (

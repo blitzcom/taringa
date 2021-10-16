@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui/content renders content 1`] = `
+<main
+  className="content"
+>
+  <p>
+    __CHILDREN__
+  </p>
+</main>
+`;

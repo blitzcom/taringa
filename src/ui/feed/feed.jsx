@@ -1,6 +1,6 @@
 import { useQuery } from 'react-query';
 
-import ItemPost from 'ui/item-post';
+import ItemPost from '@/ui/item-post';
 
 import style from './feed.module.scss';
 
