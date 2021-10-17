@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui/error-feed renders error feed 1`] = `
+<div
+  className="wrapper"
+>
+  <h2
+    className="title"
+  >
+    We have a little problem
+  </h2>
+  <p
+    className="description"
+  >
+    Can't fetch feed. Please make sure you are connected to the internet.
+  </p>
+  <button
+    className="button"
+    onClick={[MockFunction]}
+  >
+    Try again
+  </button>
+</div>
+`;

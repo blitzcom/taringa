@@ -1,0 +1,44 @@
+.wrapper {
+  align-items: center;
+  background: #fa5252;
+  border-radius: 5px;
+  border: 1px solid #fcc2d7;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  max-width: 620px;
+  padding: 16px;
+  width: 100%;
+}
+
+.title,
+.description {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-size: 1.2rem;
+}
+
+.description {
+  margin-top: 4px;
+}
+
+.button {
+  background: #e9ecef;
+  border-radius: 0.3em;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 16px;
+  padding: 0.6em 1.5em;
+
+  &:hover {
+    background: lighten($color: #e9ecef, $amount: 100%);
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}

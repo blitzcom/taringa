@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui/loader-feed renders loader 1`] = `
+<div
+  className="loader"
+>
+  <div
+    className="wrapper"
+  >
+    <div
+      className="meta"
+    >
+      <div
+        className="title"
+      />
+      <div
+        className="subtitle"
+      />
+    </div>
+    <div
+      className="thumbnail"
+    />
+  </div>
+  <div
+    className="wrapper"
+  >
+    <div
+      className="meta"
+    >
+      <div
+        className="title"
+      />
+      <div
+        className="subtitle"
+      />
+    </div>
+    <div
+      className="thumbnail"
+    />
+  </div>
+</div>
+`;
