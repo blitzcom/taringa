@@ -1,0 +1,61 @@
+.article {
+  background: white;
+  border-bottom: 1px solid #f1f3f5;
+  border-left: 1px solid #f1f3f5;
+  border-right: 1px solid #f1f3f5;
+  border-top: 1px solid #f1f3f5;
+  display: flex;
+  padding: 16px;
+
+  & + .article {
+    border-top: none;
+  }
+}
+
+.title {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.excerpt {
+  font-size: 0.9rem;
+  line-height: 1.15rem;
+  margin: 0.5rem 0 0;
+}
+
+.meta {
+  align-items: center;
+  display: flex;
+  margin-top: 8px;
+
+  .vote {
+    align-items: center;
+    display: inline-flex;
+
+    & + .vote {
+      margin-left: 16px;
+    }
+
+    .count {
+      font-size: 0.85rem;
+      margin-left: 4px;
+    }
+  }
+
+  .upvotes {
+    color: #01d47c;
+  }
+
+  .downvotes {
+    color: #ee0b85;
+  }
+}
+
+.thumbnail {
+  flex-shrink: 0;
+  margin-left: 16px;
+
+  .src {
+    border-radius: 5px;
+  }
+}
