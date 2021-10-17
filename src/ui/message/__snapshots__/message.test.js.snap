@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui/message renders message with children as message 1`] = `
+<div
+  className="wrapper"
+>
+  My message
+</div>
+`;

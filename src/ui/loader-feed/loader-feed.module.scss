@@ -1,0 +1,53 @@
+.loader {
+  display: flex;
+  flex-direction: column;
+  max-width: 620px;
+  width: 100%;
+
+  &:not(:first-child) {
+    .wrapper {
+      border-top: none;
+    }
+  }
+}
+
+.wrapper {
+  background: white;
+  border: 1px solid #f1f3f5;
+  display: flex;
+  padding: 16px;
+  width: 100%;
+
+  & + .wrapper {
+    border-top: none;
+  }
+}
+
+.meta {
+  width: 100%;
+
+  .title {
+    height: 20px;
+    width: 100%;
+  }
+
+  .subtitle {
+    height: 15px;
+    margin-top: 8px;
+    width: 60%;
+  }
+}
+
+.thumbnail {
+  flex-shrink: 0;
+  height: 120px;
+  margin-left: 16px;
+  width: 120px;
+}
+
+.title,
+.thumbnail,
+.subtitle {
+  background: #f1f3f5;
+  border-radius: 5px;
+}
