@@ -1,12 +1,295 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ui/item-post renders item post 1`] = `
-<article>
-  <h2>
-    foo
-  </h2>
-  <p>
-    bar
-  </p>
+<article
+  className="article"
+>
+  <div>
+    <h2
+      className="title"
+    >
+      foo
+    </h2>
+    <p
+      className="excerpt"
+    >
+      bar
+    </p>
+    <div
+      className="meta"
+    >
+      <span
+        className="vote upvotes"
+      >
+        <svg
+          className="mdi-icon "
+          fill="currentColor"
+          height={22}
+          viewBox="0 0 24 24"
+          width={22}
+        >
+          <path
+            d="M12,7L17,12H14V16H10V12H7L12,7M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20Z"
+          />
+        </svg>
+        <span
+          className="count"
+        >
+          99
+        </span>
+      </span>
+      <span
+        className="vote downvotes"
+      >
+        <svg
+          className="mdi-icon "
+          fill="currentColor"
+          height={22}
+          viewBox="0 0 24 24"
+          width={22}
+        >
+          <path
+            d="M12,17L7,12H10V8H14V12H17L12,17M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z"
+          />
+        </svg>
+        <span
+          className="count"
+        >
+          49
+        </span>
+      </span>
+    </div>
+  </div>
+  <div
+    className="thumbnail"
+  >
+    <div
+      alt="foo"
+      className="src"
+      height={120}
+      objectFit="cover"
+      src="https://media.taringa.net/knn/crop:150x115/Z3M6Ly9rbjMvMzA0NDAwMDRlMzI1N2ExNTZkMTI5MTg2M2ZmMjFlZjQuanBn"
+      unoptimized={true}
+      width={120}
+    />
+  </div>
+</article>
+`;
+
+exports[`ui/item-post when downvotes is zero renders only with downvotes icon 1`] = `
+<article
+  className="article"
+>
+  <div>
+    <h2
+      className="title"
+    >
+      foo
+    </h2>
+    <p
+      className="excerpt"
+    >
+      bar
+    </p>
+    <div
+      className="meta"
+    >
+      <span
+        className="vote upvotes"
+      >
+        <svg
+          className="mdi-icon "
+          fill="currentColor"
+          height={22}
+          viewBox="0 0 24 24"
+          width={22}
+        >
+          <path
+            d="M12,7L17,12H14V16H10V12H7L12,7M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20Z"
+          />
+        </svg>
+        <span
+          className="count"
+        >
+          99
+        </span>
+      </span>
+      <span
+        className="vote downvotes"
+      >
+        <svg
+          className="mdi-icon "
+          fill="currentColor"
+          height={22}
+          viewBox="0 0 24 24"
+          width={22}
+        >
+          <path
+            d="M12,17L7,12H10V8H14V12H17L12,17M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+  <div
+    className="thumbnail"
+  >
+    <div
+      alt="foo"
+      className="src"
+      height={120}
+      objectFit="cover"
+      src="https://media.taringa.net/knn/crop:150x115/Z3M6Ly9rbjMvMzA0NDAwMDRlMzI1N2ExNTZkMTI5MTg2M2ZmMjFlZjQuanBn"
+      unoptimized={true}
+      width={120}
+    />
+  </div>
+</article>
+`;
+
+exports[`ui/item-post when thumbnail is empty renders default thumbnail 1`] = `
+<article
+  className="article"
+>
+  <div>
+    <h2
+      className="title"
+    >
+      foo
+    </h2>
+    <p
+      className="excerpt"
+    >
+      bar
+    </p>
+    <div
+      className="meta"
+    >
+      <span
+        className="vote upvotes"
+      >
+        <svg
+          className="mdi-icon "
+          fill="currentColor"
+          height={22}
+          viewBox="0 0 24 24"
+          width={22}
+        >
+          <path
+            d="M12,7L17,12H14V16H10V12H7L12,7M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20Z"
+          />
+        </svg>
+        <span
+          className="count"
+        >
+          99
+        </span>
+      </span>
+      <span
+        className="vote downvotes"
+      >
+        <svg
+          className="mdi-icon "
+          fill="currentColor"
+          height={22}
+          viewBox="0 0 24 24"
+          width={22}
+        >
+          <path
+            d="M12,17L7,12H10V8H14V12H17L12,17M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z"
+          />
+        </svg>
+        <span
+          className="count"
+        >
+          49
+        </span>
+      </span>
+    </div>
+  </div>
+  <div
+    className="thumbnail"
+  >
+    <div
+      alt="foo"
+      className="src"
+      height={120}
+      objectFit="cover"
+      src="https://www.taringa.net/article_background.svg"
+      unoptimized={true}
+      width={120}
+    />
+  </div>
+</article>
+`;
+
+exports[`ui/item-post when upvotes is zero renders only with upvotes icon 1`] = `
+<article
+  className="article"
+>
+  <div>
+    <h2
+      className="title"
+    >
+      foo
+    </h2>
+    <p
+      className="excerpt"
+    >
+      bar
+    </p>
+    <div
+      className="meta"
+    >
+      <span
+        className="vote upvotes"
+      >
+        <svg
+          className="mdi-icon "
+          fill="currentColor"
+          height={22}
+          viewBox="0 0 24 24"
+          width={22}
+        >
+          <path
+            d="M12,7L17,12H14V16H10V12H7L12,7M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20Z"
+          />
+        </svg>
+      </span>
+      <span
+        className="vote downvotes"
+      >
+        <svg
+          className="mdi-icon "
+          fill="currentColor"
+          height={22}
+          viewBox="0 0 24 24"
+          width={22}
+        >
+          <path
+            d="M12,17L7,12H10V8H14V12H17L12,17M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z"
+          />
+        </svg>
+        <span
+          className="count"
+        >
+          49
+        </span>
+      </span>
+    </div>
+  </div>
+  <div
+    className="thumbnail"
+  >
+    <div
+      alt="foo"
+      className="src"
+      height={120}
+      objectFit="cover"
+      src="https://media.taringa.net/knn/crop:150x115/Z3M6Ly9rbjMvMzA0NDAwMDRlMzI1N2ExNTZkMTI5MTg2M2ZmMjFlZjQuanBn"
+      unoptimized={true}
+      width={120}
+    />
+  </div>
 </article>
 `;
